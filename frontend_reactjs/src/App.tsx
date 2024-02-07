@@ -1,7 +1,14 @@
 import './App.scss';
 
-import { Navbar } from './components';
-import { About, Footer, Header, Testimonial, Work, Skills } from './container';
+import { Navbar } from '@src/components';
+import {
+  About,
+  Footer,
+  Header,
+  Testimonial,
+  Work,
+  Skills,
+} from '@src/container';
 
 const App = () => {
   return (
