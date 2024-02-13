@@ -1,39 +1,45 @@
-import email from '../assets/email.png';
-import mobile from '../assets/mobile.png';
-import api from '../assets/api.png';
-import cpp from '../assets/cpp.png';
-import css from '../assets/css.png';
-import figma from '../assets/figma.png';
-import flutter from '../assets/flutter.png';
-import git from '../assets/git.png';
-import graphql from '../assets/graphql.png';
-import html from '../assets/html.png';
-import javascript from '../assets/javascript.png';
-import mu5 from '../assets/mu5.png';
-import node from '../assets/node.png';
-import python from '../assets/python.png';
-import react from '../assets/react.png';
-import redux from '../assets/redux.png';
-import sass from '../assets/sass.png';
-import typescript from '../assets/typescript.png';
-import vue from '../assets/vue.png';
+import email from "@src/assets/email.png";
+import mobile from "@src/assets/mobile.png";
+import api from "@src/assets/api.png";
+import cpp from "@src/assets/cpp.png";
+import css from "@src/assets/css.png";
+import figma from "@src/assets/figma.png";
+import flutter from "@src/assets/flutter.png";
+import git from "@src/assets/git.png";
+import graphql from "@src/assets/graphql.png";
+import html from "@src/assets/html.png";
+import javascript from "@src/assets/javascript.png";
+import mu5 from "@src/assets/mu5.png";
+import node from "@src/assets/node.png";
+import python from "@src/assets/python.png";
+import react from "@src/assets/react.png";
+import redux from "@src/assets/redux.png";
+import sass from "@src/assets/sass.png";
+import typescript from "@src/assets/typescript.png";
+import vue from "@src/assets/vue.png";
+import reactquery from "@src/assets/reactquery.png";
 
-import about01 from '../assets/about01.png';
-import about02 from '../assets/about02.png';
-import about03 from '../assets/about03.png';
-import about04 from '../assets/about04.png';
+import about01 from "@src/assets/about01.png";
+import about02 from "@src/assets/about02.png";
+import about03 from "@src/assets/about03.png";
+import about04 from "@src/assets/about04.png";
 
-import profile from '../assets/profile.png';
-import circle from '../assets/circle.svg';
-import logo from '../assets/logo.png';
+import profile from "@src/assets/profile.png";
+import circle from "@src/assets/circle.svg";
+import logo from "@src/assets/logo.png";
 
-import adidas from '../assets/adidas.png';
-import amazon from '../assets/amazon.png';
-import asus from '../assets/asus.png';
-import bolt from '../assets/bolt.png';
-import nb from '../assets/nb.png';
-import skype from '../assets/skype.png';
-import spotify from '../assets/spotify.png';
+import adidas from "@src/assets/adidas.png";
+import amazon from "@src/assets/amazon.png";
+import asus from "@src/assets/asus.png";
+import bolt from "@src/assets/bolt.png";
+import nb from "@src/assets/nb.png";
+import skype from "@src/assets/skype.png";
+import spotify from "@src/assets/spotify.png";
+
+import astronaut from "@src/assets/cute-astronaut-flying-in-space.png";
+
+import rabbitOrigami from "@src/assets/rabbit-origami-paper.svg";
+import rabbitOrigamiBlack from "@src/assets/rabbit-origami-paper-black.svg";
 
 export default {
   email,
@@ -55,6 +61,7 @@ export default {
   sass,
   typescript,
   vue,
+  reactquery,
   about01,
   about02,
   about03,
@@ -69,4 +76,7 @@ export default {
   nb,
   skype,
   spotify,
+  astronaut,
+  rabbitOrigami,
+  rabbitOrigamiBlack,
 };

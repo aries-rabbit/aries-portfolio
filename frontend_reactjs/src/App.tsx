@@ -1,14 +1,14 @@
-import './App.scss';
+import "./App.scss";
 
-import { Navbar } from '@src/components';
+import { Navbar } from "@src/components";
 import {
   About,
   Footer,
   Header,
-  Testimonial,
+  // Testimonial,
   Work,
   Skills,
-} from '@src/container';
+} from "@src/container";
 
 const App = () => {
   return (
@@ -18,7 +18,7 @@ const App = () => {
       <About />
       <Work />
       <Skills />
-      <Testimonial />
+      {/* <Testimonial /> */}
       <Footer />
     </div>
   );

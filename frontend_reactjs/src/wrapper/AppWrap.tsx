@@ -19,8 +19,10 @@ const AppWrap = ({ Component, idName, classNames }: AppWrapProps) =>
           <Component />
 
           <div className="copyright">
-            <p className="p-text">{dayjs().year()} Thành</p>
-            <p className="p-text">All right reserved</p>
+            <p className="p-text" style={{ textTransform: "none" }}>
+              Made with ❤️ by me
+            </p>
+            <p className="p-text">© {dayjs().year()} All right reserved</p>
           </div>
         </div>
         <NavigationDots active={idName} />

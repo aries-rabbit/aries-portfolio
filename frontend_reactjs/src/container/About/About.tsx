@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import "./About.scss";
 import AppWrap from "@src/wrapper/AppWrap";
+import MotionWrap from "@src/wrapper/MotionWrap";
 import { urlFor, client } from "@src/client";
 
 const About = () => {
@@ -30,7 +31,9 @@ const About = () => {
             className="app__profile-item"
             key={about.title + index}
           >
-            <img src={`${urlFor(about.imgUrl)}`} alt={about.title} />
+            {about?.imgUrl && (
+              <img src={`${urlFor(about.imgUrl)}`} alt={about.title} />
+            )}
             <h2 className="bold-text" style={{ marginTop: 20 }}>
               {about.title}
             </h2>
@@ -45,6 +48,7 @@ const About = () => {
 };
 
 export default AppWrap({
-  Component: About,
+  Component: MotionWrap({ Component: About, classNames: "app__about" }),
   idName: "about",
+  classNames: "app__whitebg",
 });

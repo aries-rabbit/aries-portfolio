@@ -1,16 +1,13 @@
-import { BsTwitter, BsInstagram } from "react-icons/bs";
-import { FaFacebookF } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
 const SocialMedia = () => {
   return (
     <div className="app__social">
-      <div>
-        <BsTwitter />
-      </div>
-      <div>
-        <FaFacebookF />
-      </div>
-      <div>
-        <BsInstagram />
+      <div
+        onClick={() =>
+          window.open("https://www.linkedin.com/in/congthanhdao2703/")
+        }
+      >
+        <FaLinkedinIn />
       </div>
     </div>
   );
